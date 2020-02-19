@@ -39,6 +39,15 @@ exports.seed = function(knex) {
           OnLot: true,
           Transmission: 'V8',
           title: 'Clean'
+        },
+        {
+          Vin: '123456111114',
+          Make: 'Ford',
+          Model: 'Mustang',
+          Mileage: '12',
+          OnLot: true,
+          Transmission: 'V8',
+          title: 'Clean'
         }
       ];
 

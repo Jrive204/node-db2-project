@@ -6,7 +6,14 @@ module.exports = {
     connection: {
       filename: './data/car-dealer.db3'
     },
-    useNullAsDefault: true
+    useNullAsDefault: true,
+    seeds: {
+      directory: './data/seeds'
+    },
+    migrations: {
+      tableName: 'knex_migrations',
+      directory: './data/migrations'
+    }
   },
 
   staging: {
